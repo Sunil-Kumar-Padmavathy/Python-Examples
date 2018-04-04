@@ -19,3 +19,20 @@ print("find unique letters\n")
 a= set('anaesthesia')
 b= set('pharmaceutical')
 
+print("print a --> removes duplicates from the set\n")
+print(a)
+
+print("print b --> removes duplicates from the set\n")
+print(b)
+
+print("\na-b, letters present in a but not in b\n")
+print (a-b)
+
+print("\n a | b, letters present in a or b or both\n")
+print (a | b)
+
+print("\n a & b, letters present in a and b\n")
+print (a & b)
+
+print("\n a ^ b, letters present in a or b, but not both\n")
+print (a ^ b)
