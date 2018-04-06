@@ -28,3 +28,21 @@ print("\nvalidate existence of the key\n")
 print("'one' in dict1-->\n",'one' in dict1)
 print("\n'nothing' in dict1-->\n",'nothing' in dict1)
 
+#dict() constructor 
+print("\ndict() constructor ")
+print("builds a dictionary from sequences of key value pairs")
+dict2 = dict([('one',1),('two',2),('three',3)])
+print("\ndict2-->", dict2)
+
+dict3=dict(nine=9, eight=8, seven=7)
+print("\ndict3-->\n",dict3)
+
+#using dict comprehensions
+print("\ndict comprehensions-->\n"
+"creating dictionaries from arbitrary key and value expressions:\n")
+print("{x: x*2 for x in (2, 4, 6)}--> x is the key x*2 is the value\n")
+print({x: x*2 for x in (2, 4, 6)})
+
+print("\n{x: x**2 for x in (2, 4, 6)}--> x is the key x square is the value\n")
+print("{x: x**2 for x in (2, 4, 6)}\n")
+print({x: x**2 for x in (2, 4, 6)})
